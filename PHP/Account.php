@@ -1,6 +1,5 @@
 <?php
-class Account
-{
+class Account {
     public $id;
     public $name;
     public $document;
@@ -12,4 +11,5 @@ class Account
         $this->document = $document;
     }
 }
+
 ?>
