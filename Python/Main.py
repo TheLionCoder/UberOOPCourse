@@ -1,5 +1,12 @@
+from Account import Account
+from Car import Car
+
+
 def main():
-    pass
+
+    car = Car("WFR687", Account(name="Fredy Gonzales", document="FG123"))
+    print(vars(car))
+    print(vars(car.driver))
 
 
 if __name__ == "__main__":
